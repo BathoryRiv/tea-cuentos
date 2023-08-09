@@ -1,12 +1,16 @@
 
 import './App.css'
+import { MenuPage } from './components/MenuPage'
+// Importaciòn de portada
+// import { PortadaPage } from './components/PortadaPage'
 
-function App() {
+
+const App = () => {
   return (
-    <div className='portada'>
-    <img src='../public/cuento-imagenes/portada.svg'/>
-    </div>
-    
+    // Componente portada
+    // <PortadaPage/> 
+    //Componente MenuPage
+    <MenuPage/>
   )
 }
 
