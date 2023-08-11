@@ -4,33 +4,39 @@ body {
   align-items: center;
 }
 
+.root{
+  padding: 0%;
+}
+
 img {
   height: 750px;
 }
 
 .bg-menu {
   background-color: #F8EFD7;
+  height: 750px;
+  width: 1054px;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .tessi {
   background-color: #EC5F53;
-  width: 361.02px;
-  height: 503.163px;
   flex-shrink: 0;
   filter: drop-shadow(0px 24px 34px rgba(0, 0, 0, 0.25));
 }
 
 .elio {
   background-color: #A4B2D3;
-  width: 219.057px;
-  height: 234.436px;
   flex-shrink: 0;
 }
 
 .ale {
   background-color: #F9C74C;
-  width: 219.057px;
-  height: 234.436px;
   flex-shrink: 0;
 }
 
@@ -39,4 +45,14 @@ img {
   height: 234.436px;
   flex-shrink: 0;
 
+}
+.button-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 69px;
+}
+
+.title {
+  width: 600px;
+  height: auto;
 }
