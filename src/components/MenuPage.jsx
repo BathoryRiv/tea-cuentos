@@ -6,9 +6,9 @@ export const MenuPage = () => {
     <div className="bg-menu">
         <img className='title' src={"../../public/cuento-imagenes/Elige un cuento.svg"}  /> 
         <div className="button-container">
-            <MenuButton />
-            <MenuButton />
-            <MenuButton />
+            <MenuButton card={'tessi'} icon={"./../../public/cuento-iconos/icono tessi.svg"} name={'Tessi'}/>
+            <MenuButton card={'elio'} icon={"./../../public/cuento-iconos/icono tessi.svg"} name={'Elio'}/>
+            <MenuButton card={'ale'} icon={"./../../public/cuento-iconos/icono tessi.svg"} name={'Ale'}/>
         </div>
     </div>
    

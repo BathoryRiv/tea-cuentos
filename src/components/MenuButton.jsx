@@ -1,10 +1,10 @@
-export const MenuButton = () => {
+export const MenuButton = ({card, icon, name}) => {
     return (
         //div tessi
 
-        <div className="tessi">
-            <img className="icon" src={"./../../public/cuento-iconos/icono tessi.svg"} /> 
-            <h2>Tessi</h2>
+        <div className={card}>
+            <img className="icon" src={icon} /> 
+            <h2>{name}</h2>
          </div>
     )
 }
